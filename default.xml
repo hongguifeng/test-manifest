@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="test-remote" fetch=".." />
+  <remote  name="test-remote" fetch="." />
   <default revision="master" remote="test-remote" sync-j="4" />
 
   <project path="repo1/vimrc" name="vimrc" revision="manifest-test-b1" />
