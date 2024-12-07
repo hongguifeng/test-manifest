@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="test-remote" fetch="..">
+  <default revision="master" remote="test-remote" sync-j="4" />
+
+  <project path="vimrc" name="repo1/vimrc" revision="manifest-test-b1" />
+  <project path="pomodoro-timer-basic" name="repo2/pomodoro" revision="main" />
+</manifest>
