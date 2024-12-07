@@ -3,7 +3,7 @@
   <remote  name="test-remote" fetch="https://github.com/hongguifeng/" />
   <default revision="master" remote="test-remote" sync-j="4" />
 
-  <project path="repo1/vimrc" name="vimrc" revision="manifest-test-b1" />
+  <project path="repo1/vimrc" name="vimrc" />
   <project path="repo2/pomodoro" name="pomodoro-timer-basic" revision="main" />
 
 </manifest>
